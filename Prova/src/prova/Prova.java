@@ -11,5 +11,7 @@ public class Prova {
 		i=Math.sqrt(x);
 		System.out.print(i);
 		System.out.println(" è la radice di " + x);
+		i += i;
+		System.out.println("il doppio della radice è " + i);
 	}
 }
