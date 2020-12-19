@@ -9,6 +9,8 @@ public class Prova {
 		int x = e.nextInt();
 		e.close();
 		i=Math.sqrt(x);
-		System.out.println(i);
+		System.out.println("radice quarata " + i);
+		i=Math.sqrt(i);
+		System.out.println("radice quarta " + i);
 	}
 }
