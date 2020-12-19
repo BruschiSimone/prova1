@@ -1,9 +1,14 @@
 package prova;
+import java.util.Scanner;
 
 public class Prova {
 	public static void main (String[] args) {
-		double i, e=25;
-		i=Math.sqrt(e);
+		Scanner e = new Scanner(System.in);
+		double i;
+		System.out.println("Inserisci il numero di cui vuoi trovare la radice:");
+		int x = e.nextInt();
+		e.close();
+		i=Math.sqrt(x);
 		System.out.println(i);
 	}
 }
