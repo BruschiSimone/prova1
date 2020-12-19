@@ -9,11 +9,11 @@ public class Prova {
 		int x = e.nextInt();
 		e.close();
 		i=Math.sqrt(x);
-<<<<<<< HEAD
+
 		System.out.println(i);
 		i += 1;
 		System.out.println(i);
-=======
+
 		System.out.print(i);
 		System.out.println(" è la radice di " + x);
 
@@ -23,6 +23,6 @@ public class Prova {
 		i += 2*i;
 		System.out.println("il triplo della radice è " + i);
 
->>>>>>> refs/heads/branchProva2
+
 	}
 }
