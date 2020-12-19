@@ -11,5 +11,7 @@ public class Prova {
 		i=Math.sqrt(x);
 		System.out.print(i);
 		System.out.println(" è la radice di " + x);
+		i += 2*i;
+		System.out.println("il triplo della radice è " + i);
 	}
 }
