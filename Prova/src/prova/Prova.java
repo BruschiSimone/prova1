@@ -9,6 +9,7 @@ public class Prova {
 		int x = e.nextInt();
 		e.close();
 		i=Math.sqrt(x);
-		System.out.println(i);
+		System.out.print(i);
+		System.out.println(" è la radice di " + x);
 	}
 }
