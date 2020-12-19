@@ -10,5 +10,7 @@ public class Prova {
 		e.close();
 		i=Math.sqrt(x);
 		System.out.println(i);
+		i += 1;
+		System.out.println(i);
 	}
 }
