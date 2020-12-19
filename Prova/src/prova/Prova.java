@@ -12,6 +12,7 @@ public class Prova {
 
 
 		System.out.println(i);
+<<<<<<< HEAD
 		i += 1;
 		System.out.println(i);
 
@@ -30,5 +31,9 @@ public class Prova {
 		i=Math.sqrt(i);
 		System.out.println("radice quarta " + i);
 
+=======
+		i=x*x;
+		System.out.println("quadrato " + i);
+>>>>>>> refs/heads/branchProva4
 	}
 }
